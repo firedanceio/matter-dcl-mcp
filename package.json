@@ -1,19 +1,40 @@
 {
   "name": "matter-dcl-mcp",
   "version": "0.1.0",
+  "mcpName": "io.github.firedanceio/matter-dcl-mcp",
   "description": "MCP server for the Matter Distributed Compliance Ledger: look up Matter vendors, products, device types and certifications from an AI assistant. Read-only, no API keys.",
   "type": "module",
-  "bin": { "matter-dcl-mcp": "bin/matter-dcl-mcp.mjs" },
+  "bin": {
+    "matter-dcl-mcp": "bin/matter-dcl-mcp.mjs"
+  },
   "exports": "./lib/dcl.mjs",
-  "files": ["bin", "lib"],
-  "engines": { "node": ">=20" },
-  "scripts": { "test": "node --test" },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
     "zod": "^3.23.8"
   },
-  "keywords": ["mcp", "mcp-server", "matter", "smart-home", "iot", "dcl", "csa"],
-  "repository": { "type": "git", "url": "git+https://github.com/firedanceio/matter-dcl-mcp.git" },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "matter",
+    "smart-home",
+    "iot",
+    "dcl",
+    "csa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firedanceio/matter-dcl-mcp.git"
+  },
   "homepage": "https://github.com/firedanceio/matter-dcl-mcp",
   "license": "Apache-2.0",
   "author": "Firedance (https://firedance.io)"

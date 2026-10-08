@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.firedanceio/matter-dcl-mcp",
+  "title": "Matter DCL",
+  "description": "Look up Matter vendors, products, device types and certifications in the official ledger.",
+  "repository": {
+    "url": "https://github.com/firedanceio/matter-dcl-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://firedance.io/open-source/matter-dcl-mcp/",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "matter-dcl-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "MATTER_DCL_NETWORK",
+          "description": "Set to testnet to use the test ledger (default: mainnet)",
+          "isRequired": false
+        }
+      ]
+    }
+  ]
+}
